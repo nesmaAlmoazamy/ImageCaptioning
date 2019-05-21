@@ -1,5 +1,4 @@
-# ImageCaptioning
-ImageCaptioning using inception_resnet_v2
+# ImageCaptioning using Token Embeddings and inception_resnet_v2
 
 The main idea behind this research is to try improving the Image captioning results, the change that I made is using BERT token embeddings for the text (captions)  and I used Inception_resnet_v2 for the images and I successfully implemented them. Also, It is proposed to use BERTScore[2] for captions evaluation, but this is not included in the implementation.
 
